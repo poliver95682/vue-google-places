@@ -6,11 +6,11 @@ export default {
   props: {
     searchIcon: {
       type: String,
-      default: () => 'search'
+      default: () => ''
     },
     clearIcon: {
       type: String,
-      default: () => 'close'
+      default: () => ''
     }
   },
   computed: {
